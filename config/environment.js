@@ -22,7 +22,6 @@ module.exports = function(environment) {
     authDomain: "super-rentals-9ea3c.firebaseapp.com",
     databaseURL: "https://super-rentals-9ea3c.firebaseio.com",
     storageBucket: "super-rentals-9ea3c.appspot.com",
-    messagingSenderId: "875659698477"
 },
 
     APP: {

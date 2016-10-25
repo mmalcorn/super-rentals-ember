@@ -1,0 +1,13 @@
+{{yield}}
+
+      <li>
+        {{rental.owner}}'s {{rental.type}} in {{rental.city}}
+        {{#if isImageShowing }}
+          <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}} ></p>
+        {{else}}
+          <button {{action 'imageShow'}}>Show image</button>
+        {{/if}}
+    </li>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
